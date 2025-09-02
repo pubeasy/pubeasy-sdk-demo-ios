@@ -1,0 +1,34 @@
+# Ignore Xcode generated files
+build/
+DerivedData/
+
+# Ignore CocoaPods generated files
+Pods/
+
+# Ignore user-specific settings files
+*.xcuserdatad
+*.xcworkspace
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Ignore documentation output
+*.docset
+*.doc
+
+# Ignore secrets or config files
+Secrets.xcconfig
+*.plist
+
+# Ignore packaging artifacts
+*.ipa
+*.dSYM
+
+# Ignore other unnecessary files
+.DS_Store

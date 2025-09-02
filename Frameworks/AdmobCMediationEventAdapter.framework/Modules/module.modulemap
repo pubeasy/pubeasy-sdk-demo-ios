@@ -1,0 +1,6 @@
+framework module AdmobCMediationEventAdapter {
+  umbrella header "AdmobCMediationEventAdapter.h"
+  export *
+
+  module * { export * }
+}

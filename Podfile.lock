@@ -1,0 +1,30 @@
+PODS:
+  - Google-Mobile-Ads-SDK (12.4.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (3.0.0)
+  - PubeasySDK (0.3.9)
+  - TPNiOS (6.4.87):
+    - TPNiOS/TPNSDK (= 6.4.87)
+  - TPNiOS/TPNSDK (6.4.87)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK (= 12.4.0)
+  - PubeasySDK (= 0.3.9)
+  - TPNiOS (= 6.4.87)
+
+SPEC REPOS:
+  trunk:
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
+    - PubeasySDK
+    - TPNiOS
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: db00a3836f288f94e52114f312b56fe066699d82
+  GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
+  PubeasySDK: e2476a0a09f52f85ba1b8540a8579282f7b54c53
+  TPNiOS: 9c09ef73659b1e3ff234e0998c27507b53859376
+
+PODFILE CHECKSUM: 41ae13e6599d415802f91e8731f05bf7053a7129
+
+COCOAPODS: 1.16.2
