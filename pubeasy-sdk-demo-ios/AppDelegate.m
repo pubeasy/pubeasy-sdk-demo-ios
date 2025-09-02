@@ -24,15 +24,14 @@
         [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
         }];
     }
-    // Override point for customization after application launc
-    
+    // Initialize the PubeasySDK.
     [PubeasyManager initSDK:@"0E9CBC7B740B3776E1CCE54D6BA82B46" completionBlock:^(NSError * _Nullable error) {
         if (!error) {
             NSLog(@"PubeasyManager sdk init success!");
         }
     }];
     
-    // 初始化TopOn SDK
+    // Initialize the TopOn SDK.
     [[ATAPI sharedInstance] startWithAppID:@"h68803d468189e"
                                     appKey:@"a9648f070ab3edebdc5cc21ea8822e726"
                                      error:nil];
